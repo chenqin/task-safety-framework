@@ -13,8 +13,12 @@ With SafeTask, the agent can resume from where it left off.
 
 import time
 import os
+import sys
 from pathlib import Path
-from task_safety_framework import SafeTask
+
+# Add src to path for direct execution
+sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+from safe_task import SafeTask
 
 # Simulated coding agent task
 class CodingAgentTask:
