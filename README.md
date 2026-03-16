@@ -102,7 +102,7 @@ Legacy progress tracking utility (backward compatible).
 
 ## 🤖 For Coding Agents
 
-**OpenClaw, Codex, Claude Code, and other coding agents can use this framework for:**
+**Coding agents can use this framework for:**
 
 - ✅ Refactoring large codebases (100s of files)
 - ✅ Generating code from specifications
@@ -112,6 +112,26 @@ Legacy progress tracking utility (backward compatible).
 
 **See:** [docs/CODING_AGENT_INTEGRATION.md](docs/CODING_AGENT_INTEGRATION.md) for full guide  
 **Try:** [examples/coding_agent_e2e.py](examples/coding_agent_e2e.py) for complete example
+
+---
+
+## 🐶 For OpenClaw Agents
+
+**OpenClaw-specific integration with examples for:**
+
+- ✅ Main session multi-turn analysis
+- ✅ Subagent tasks (experiment_runner, lacrosse_manager)
+- ✅ Browser automation with checkpointing
+- ✅ Cron heartbeat monitoring integration
+- ✅ Session persistence across timeouts
+
+**See:** [docs/OPENCLAW_INTEGRATION.md](docs/OPENCLAW_INTEGRATION.md) for OpenClaw-specific guide
+
+**Key benefits in OpenClaw:**
+- Survive session timeouts (2-hour limit)
+- Resume subagent tasks after crashes
+- Coordinate progress across multiple agents
+- Integrate with existing cron monitoring
 
 ---
 
