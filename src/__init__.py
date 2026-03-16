@@ -11,7 +11,8 @@ Usage:
 """
 
 from .safe_task import SafeTask, check_stuck_task
+from .llm_task import LLMTask, create_llm_task, resume_llm_task
 
 __version__ = "1.0.0"
 __author__ = "Chen Qin"
-__all__ = ["SafeTask", "check_stuck_task"]
+__all__ = ["SafeTask", "check_stuck_task", "LLMTask", "create_llm_task", "resume_llm_task"]
