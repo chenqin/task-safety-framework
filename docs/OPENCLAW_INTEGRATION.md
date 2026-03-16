@@ -75,10 +75,10 @@ for player in players:
 
 ```python
 # For main session
-task = LLMTask("my_task", context_dir="/home/chen/.openclaw/workspace/tasks/my_task")
+task = LLMTask("my_task", context_dir="~/.openclaw/workspace/tasks/my_task")
 
 # For subagent
-task = LLMTask("my_task", context_dir="/home/chen/.openclaw/subagents/agent_name/tasks/my_task")
+task = LLMTask("my_task", context_dir="~/.openclaw/subagents/agent_name/tasks/my_task")
 ```
 
 ### Progress Tracking
@@ -119,7 +119,7 @@ def analyze_365d_stocks(symbols):
     """Analyze 365 days of stock data for multiple symbols."""
     
     task = LLMTask("stock_analysis_365d", 
-                   context_dir="/home/chen/.openclaw/workspace/tasks/stock_analysis")
+                   context_dir="~/.openclaw/workspace/tasks/stock_analysis")
     
     # Resume if interrupted
     if task.should_resume():
@@ -214,7 +214,7 @@ def email_parents(players):
     """Email parents for missing roster info."""
     
     task = LLMTask("k2_parent_outreach",
-                   context_dir="/home/chen/.openclaw/subagents/lacrosse_manager/tasks")
+                   context_dir="~/.openclaw/subagents/lacrosse_manager/tasks")
     
     # Resume if interrupted
     if task.should_resume():
@@ -348,7 +348,7 @@ if is_stuck:
 
 ```bash
 # From OpenClaw workspace
-cd /home/chen/.openclaw/workspace/task-safety-framework
+cd ~/.openclaw/workspace/task-safety-framework
 pip install -e . --break-system-packages
 ```
 
@@ -443,7 +443,7 @@ task = LLMTask("process_1000_files")  # Overkill
 
 ```python
 # ✅ Good: Organized by agent
-task = LLMTask("task1", context_dir="/home/chen/.openclaw/subagents/experiment_runner/tasks")
+task = LLMTask("task1", context_dir="~/.openclaw/subagents/experiment_runner/tasks")
 
 # ❌ Bad: Default location (might get crowded)
 task = LLMTask("task1")  # Goes to ~/.openclaw/llm-tasks/
@@ -545,4 +545,4 @@ for agent in ['experiment_runner', 'lacrosse_manager']:
 
 ---
 
-**Made for OpenClaw agents by Chen Qin** 🐶
+**Made for OpenClaw agents by OpenClaw Community** 🐶

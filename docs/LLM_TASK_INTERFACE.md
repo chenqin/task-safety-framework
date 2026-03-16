@@ -36,7 +36,7 @@ When an LLM task runs, it creates these files in `~/.openclaw/llm-tasks/{task_na
 
 **Example:**
 ```markdown
-Analyze the Python codebase in /home/chen/my-project/
+Analyze the Python codebase in ~/my-project/
 
 Files to analyze:
 - utils.py (150 lines)

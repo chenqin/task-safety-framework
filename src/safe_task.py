@@ -18,7 +18,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional, Dict, Any
 
-PROGRESS_DIR = Path("/home/chen/.openclaw/workspace/memory")
+PROGRESS_DIR = Path("~/.openclaw/workspace/memory")
 PROGRESS_FILE = PROGRESS_DIR / "progress.json"
 
 

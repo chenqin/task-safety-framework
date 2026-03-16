@@ -379,7 +379,7 @@ See these example files in the repo:
 ```python
 # Verify progress file
 import os
-print(os.path.exists("/home/chen/.openclaw/workspace/memory/progress.json"))
+print(os.path.exists("~/.openclaw/workspace/memory/progress.json"))
 ```
 
 ### Issue: Checkpoint not saving
@@ -387,7 +387,7 @@ print(os.path.exists("/home/chen/.openclaw/workspace/memory/progress.json"))
 **Solution:** Ensure write permissions.
 
 ```bash
-chmod 777 /home/chen/.openclaw/workspace/memory/
+chmod 777 ~/.openclaw/workspace/memory/
 ```
 
 ### Issue: Heartbeat not updating

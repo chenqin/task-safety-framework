@@ -161,7 +161,7 @@ def main():
     """
     
     # Example: Refactor files in the task-safety-framework itself
-    task_dir = "/home/chen/.openclaw/workspace/task-safety-framework"
+    task_dir = "~/.openclaw/workspace/task-safety-framework"
     
     if not os.path.exists(task_dir):
         print(f"⚠️  Directory not found: {task_dir}")
@@ -173,7 +173,7 @@ def main():
     results = agent.run(task_dir, pattern=".py", max_files=15)
     
     print(f"\n🎉 Task completed successfully!")
-    print(f"   Progress file: /home/chen/.openclaw/workspace/memory/progress.json")
+    print(f"   Progress file: ~/.openclaw/workspace/memory/progress.json")
     print()
     
     # Show how to resume

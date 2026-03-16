@@ -187,7 +187,7 @@ for i, step in enumerate(steps):
 
 ### Progress File Location
 
-Default: `/home/chen/.openclaw/workspace/memory/progress.json`
+Default: `~/.openclaw/workspace/memory/progress.json`
 
 Custom:
 ```python
@@ -280,11 +280,11 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/chenqin2026/task-safety-framework/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/chenqin2026/task-safety-framework/discussions)
+- **Issues:** [GitHub Issues](https://github.com/chenqin/task-safety-framework/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/chenqin/task-safety-framework/discussions)
 
 ---
 
-**Made with 🐶 by Chen Qin**
+**Made with 🐶 by OpenClaw Community**
 
 *Last Updated: March 15, 2026*

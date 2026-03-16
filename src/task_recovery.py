@@ -14,7 +14,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-PROGRESS_FILE = Path("/home/chen/.openclaw/workspace/memory/progress.json")
+PROGRESS_FILE = Path("~/.openclaw/workspace/memory/progress.json")
 
 
 def load_progress():

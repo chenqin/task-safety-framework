@@ -211,7 +211,7 @@ Always provide clear, actionable output.
         
         if step == "analyze_codebase":
             return f"""
-Analyze the Python codebase in /home/chen/my-project/
+Analyze the Python codebase in ~/my-project/
 
 Files to analyze:
 - utils.py (150 lines)
