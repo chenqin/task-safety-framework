@@ -100,6 +100,21 @@ Legacy progress tracking utility (backward compatible).
 
 ---
 
+## 🤖 For Coding Agents
+
+**OpenClaw, Codex, Claude Code, and other coding agents can use this framework for:**
+
+- ✅ Refactoring large codebases (100s of files)
+- ✅ Generating code from specifications
+- ✅ Running comprehensive test suites
+- ✅ Analyzing dependencies
+- ✅ Any multi-hour coding task
+
+**See:** [docs/CODING_AGENT_INTEGRATION.md](docs/CODING_AGENT_INTEGRATION.md) for full guide  
+**Try:** [examples/coding_agent_e2e.py](examples/coding_agent_e2e.py) for complete example
+
+---
+
 ## 📊 Use Cases
 
 ### Machine Learning Training
